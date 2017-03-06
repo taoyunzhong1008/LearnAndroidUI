@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.ted.learnandroidui.MainActivity">
+    tools:context="com.ted.learnandroidui.activity.MainActivity">
 
     <Button
         android:id="@+id/btn_main_test"
@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:text="@string/txt_test"/>
 
-    <customview.RandomNumberView
+    <com.ted.learnandroidui.customview.RandomNumberView
         android:id="@+id/custom_random_number"
         android:layout_below="@id/btn_main_test"
         android:layout_width="100dp"

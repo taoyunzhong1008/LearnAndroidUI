@@ -1,11 +1,10 @@
-package com.ted.learnandroidui;
+package com.ted.learnandroidui.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 
-import customview.RandomNumberView;
+import com.ted.learnandroidui.R;
+import com.ted.learnandroidui.customview.RandomNumberView;
 
 public class MainActivity extends AppCompatActivity {
 

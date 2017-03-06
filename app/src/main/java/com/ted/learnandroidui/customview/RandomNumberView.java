@@ -1,4 +1,4 @@
-package customview;
+package com.ted.learnandroidui.customview;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -14,7 +14,7 @@ import com.ted.learnandroidui.R;
 
 /**
  * FileName:
- * customview.RandomNumberView.java
+ * com.ted.learnandroidui.customview.RandomNumberView.java
  * Author: TT
  * Date: 2017-02-28
  * Description: 随机数View
