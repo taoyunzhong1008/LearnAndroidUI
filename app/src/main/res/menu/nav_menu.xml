@@ -5,10 +5,21 @@
 
     <group android:id="@+id/gl">
         <item
-            android:id="@+id/system_view"
+            android:id="@+id/base_view"
+            android:checkable="true"
+            android:icon="@drawable/base"
+            android:title="@string/txt_material_design" />
+
+        <item
+            android:id="@+id/material_design_view"
             android:checkable="true"
             android:icon="@drawable/material"
             android:title="@string/txt_material_design" />
 
+        <item
+            android:id="@+id/custom_view"
+            android:checkable="true"
+            android:icon="@drawable/custom"
+            android:title="@string/txt_material_design" />
     </group>
 </menu>
