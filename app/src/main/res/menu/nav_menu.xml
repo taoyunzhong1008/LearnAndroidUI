@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android.support.design="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/gl">
+        <item
+            android:id="@+id/system_view"
+            android:checkable="true"
+            android:icon="@drawable/material"
+            android:title="@string/txt_material_design" />
+
+    </group>
+</menu>

@@ -17,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView() {
-        mRandowNumber = (RandomNumberView) findViewById(R.id.custom_random_number);
+//        mRandowNumber = (RandomNumberView) findViewById(R.id.custom_random_number);
     }
 }
