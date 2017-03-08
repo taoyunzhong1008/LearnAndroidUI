@@ -21,7 +21,7 @@ public class MyApplication extends Application{
 
     private static List<BaseActivity> activities;
 
-    public static Application getContext() {
+    public static Context getContext() {
         return myApplication;
     }
 
@@ -38,7 +38,7 @@ public class MyApplication extends Application{
      *
      * @return
      */
-    public static Context getApplication() {
+    public static MyApplication getApplication() {
         return myApplication;
     }
 

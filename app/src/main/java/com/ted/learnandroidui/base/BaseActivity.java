@@ -13,13 +13,29 @@ import android.support.v7.app.AppCompatActivity;
  */
 public class BaseActivity extends AppCompatActivity{
 
+    public static BaseActivity activity;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        MyApplication.getApplication().addActivity(this);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        activity = this;
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        activity = null;
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        MyApplication.getApplication().removeActivity(this);
     }
 }
