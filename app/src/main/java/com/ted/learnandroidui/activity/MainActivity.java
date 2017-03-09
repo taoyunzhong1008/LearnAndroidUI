@@ -4,7 +4,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.ted.learnandroidui.R;
-import com.ted.learnandroidui.customview.RandomNumberView;
 
 public class MainActivity extends AppCompatActivity {
 
