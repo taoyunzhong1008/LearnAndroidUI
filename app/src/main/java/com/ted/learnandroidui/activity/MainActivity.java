@@ -8,7 +8,6 @@ import com.ted.learnandroidui.customview.RandomNumberView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private RandomNumberView mRandowNumber;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView() {
-//        mRandowNumber = (RandomNumberView) findViewById(R.id.custom_random_number);
+
     }
 }

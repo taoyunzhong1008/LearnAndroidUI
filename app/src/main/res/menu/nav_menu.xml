@@ -20,6 +20,6 @@
             android:id="@+id/custom_view"
             android:checkable="true"
             android:icon="@drawable/custom"
-            android:title="@string/txt_material_design" />
+            android:title="@string/txt_custom" />
     </group>
 </menu>
