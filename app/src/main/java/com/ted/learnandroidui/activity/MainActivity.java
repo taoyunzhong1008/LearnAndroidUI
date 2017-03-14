@@ -7,7 +7,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import com.ted.learnandroidui.R;
 import com.ted.learnandroidui.fragment.BaseViewFragment;
@@ -39,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(MenuItem item) {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, getFragmentById(item.getItemId())).commit();
                 mDrawer.closeDrawer(GravityCompat.START);
-                return true;
+                return false;
             }
         });
     }
