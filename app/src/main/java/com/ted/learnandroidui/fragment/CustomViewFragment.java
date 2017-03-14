@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.ted.learnandroidui.R;
 import com.ted.learnandroidui.base.BaseFragment;
 
 /**
@@ -18,7 +19,8 @@ public class CustomViewFragment extends BaseFragment{
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return super.onCreateView(inflater, container, savedInstanceState);
+        View view = inflater.inflate(R.layout.fragment_custom_view, container, false);
+        return view;
     }
 
     @Override

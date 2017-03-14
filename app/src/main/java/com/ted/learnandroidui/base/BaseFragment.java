@@ -1,6 +1,7 @@
 package com.ted.learnandroidui.base;
 
-import android.app.Fragment;
+
+import android.support.v4.app.Fragment;
 
 /**
  * FileName:
@@ -9,5 +10,5 @@ import android.app.Fragment;
  * Date: 2017-03-09
  * Description: <描述当前版本功能>
  */
-public class BaseFragment extends Fragment{
+public class BaseFragment extends Fragment {
 }

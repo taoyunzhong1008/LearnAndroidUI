@@ -8,7 +8,7 @@
             android:id="@+id/base_view"
             android:checkable="true"
             android:icon="@drawable/base"
-            android:title="@string/txt_material_design" />
+            android:title="@string/txt_base" />
 
         <item
             android:id="@+id/material_design_view"
