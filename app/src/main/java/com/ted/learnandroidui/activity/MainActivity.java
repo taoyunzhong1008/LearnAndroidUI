@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(MenuItem item) {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, getFragmentById(item.getItemId())).commit();
                 mDrawer.closeDrawer(GravityCompat.START);
-                return false;
+                return true;
             }
         });
     }
