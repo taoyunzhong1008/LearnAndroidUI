@@ -18,6 +18,19 @@ import com.ted.learnandroidui.base.BaseFragment;
  */
 public class MaterialDesignFragment extends BaseFragment{
 
+    // TODO TextInputLayout
+    // TODO FloatingActionButton
+    // TODO Snackbar
+    // TODO TabLayout
+    // TODO NavigationView
+    // TODO CoordinatorLayout
+    // TODO AppBarLayout
+    // TODO CollapsingToolbarLayout
+    // TODO ToolBar
+    // TODO DrawerLayout
+    // TODO CardView
+    // TODO AutoScrollViewPager
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_material_design, container, false);
