@@ -22,6 +22,19 @@ import butterknife.ButterKnife;
  */
 public class BaseViewFragment extends BaseFragment{
 
+    // TODO TextView
+    // TODO EditText
+    // TODO Button
+    // TODO ImageButton
+    // TODO RadioButton, RadioGroup
+    // TODO CheckBox
+    // TODO ImageView
+    // TODO ProgressBar
+    // TODO ToggleButton
+    // TODO RatingButton
+    // TODO ListView
+    // TODO GridView
+
     @BindView(R.id.lv_views)
     ListView mLvViews;
 
