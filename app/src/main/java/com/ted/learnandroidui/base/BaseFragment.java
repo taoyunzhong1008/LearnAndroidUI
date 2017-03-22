@@ -29,6 +29,11 @@ public class BaseFragment extends Fragment {
     }
 
     @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+    }
+
+    @Override
     public void onDetach() {
         super.onDetach();
     }
